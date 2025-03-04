@@ -1,0 +1,35 @@
+.instruction {
+    font-size: 20px;
+}
+
+#doubleClick {
+    font-style: italic;
+}
+
+#block, #fade {
+    background-color: peachpuff;
+    border: 2px solid paleturquoise;
+    padding: 10px;
+}
+
+#square {
+    background-color: tomato;
+    height: 100px;
+    width: 100px;
+    position: relative;
+}
+
+#circle {
+    background-color: khaki;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: relative;
+}
+
+#squareHide {
+    background-color: olive;
+    height: 100px;
+    width: 100px;
+    position: relative;
+}

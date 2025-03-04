@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--alternatively, JQuery can be downloaded and grabbed from the directory-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="JQuery_Practice.js"></script>
+        <link rel="stylesheet" href="JQuery_Practice.css">
+    </head>
+    <body>
+        <h1>JQuery Practice</h1>
+        <div id="1">
+            <p class="instruction">Click the buttons to hide and show the paragraphs.</p>
+            <p class="clickHide">This is a paragraph.</p>
+            <p class="clickHide">This is also a paragraph.</p>
+            <p class="clickHide">You guessed it, another paragraph.</p>
+            <button id="hide">Hide</button>
+            <button id="show">Show</button>
+        </div>
+        <div id="2">
+            <p class="instruction">Click the paragraphs to individually hide them.</p>
+            <p class="doubleClickHide">This is a paragraph.</p>
+            <p class="doubleClickHide">This is also a paragraph.</p>
+            <p class="doubleClickHide">You guessed it, another paragraph.</p>
+            <p id="doubleClick">Double click me to bring back the paragraphs.</p>
+        </div>
+        <div id="3">
+            <p class="instruction">Hover over the paragraph to reveal a secret message.</p>
+            <p id="hover">This is an ordinary paragraph.</p>
+            <p id="secret">This is a secret message.</p>
+        </div>
+        <div id="4">
+            <p class="instruction">Click and hold the paragraph to reveal a secret message.</p>
+            <p id="click">This is an ordinary paragraph.</p>
+            <p id="hold">This is a secret message.</p>
+        </div>
+        <div id="5">
+            <p class="instruction">Click the inputs to highlight them.</p>
+            <form>
+                Name: <input class="highlight" type="text">
+                Email: <input class="highlight" type="text">
+                Mobile: <input class="highlight" type="text">
+            </form>
+        </div>
+        <div id="6">
+            <p class="instruction">Click the bar to fade in and out of the content.</p>
+            <p id="block">The Mortal Instruments</p>
+            <div id="fade">
+                <ul>
+                    <li>City of Bones</li>
+                    <li>City of Ashes</li>
+                    <li>City of Glass</li>
+                    <li>City of Fallen Angels</li>
+                    <li>City of Lost Souls</li>
+                    <li>City of Heavenly Fire</li>
+                </ul>
+            </div>
+        </div>
+        <div id="7.1">
+            <p class="instruction">Click the square to animate it.</p>
+            <div id="square"></div>
+            <button id="resetSquare">Reset</button>
+        </div>
+        <div id="7.2">
+            <p class="instruction">Click the buttons to grow and shrink the circle.</p>
+            <div id="circle"></div>
+            <button id="grow">Grow</button>
+            <button id="shrink">Shrink</button>
+        </div>
+        <div id="8">
+            <p class="instruction">Click the button to action a callback.</p>
+            <div id="squareHide"></div>
+            <button id="hideSquare">Hide</button>
+            <p id="hiddenMessage">The square was hidden.</p>
+        </div>
+        <div id="9.1">
+            <p class="instruction">Click the buttons to get information about the paragraph.</p>
+            <p id="richParagraph">This is an <i>ordinary</i> paragraph. <b>Or is it?</b></p>
+            <button id="getText">Get Text</button>
+            <button id="getHtml">Get HTML</button>
+            <p id="showInformation"></p>
+        </div>
+        <div id="9.2">
+            <p class="instruction">Click the buttons to get the attributes of the input (try changing the value).</p>
+            <input id="richInput" type="text" value="This is the value of the input." anothervalue="This is another value called 'anothervalue'.">
+            <button id="getAttributes">Get Attributes</button>
+            <p id="showAttributes"></p>
+        </div>
+        <div id="10">
+            <p class="instruction">Type something into the input box and click a button to add it to the paragraph.</p>
+            <input id="inputAdd" type="text">
+            <button id="append">Append</button>
+            <button id="prepend">Prepend</button>
+            <p id="showInput">The</p>
+        </div>
+        <div id="11">
+            <p class="instruction">Click empty to remove the options from the select, click delete to delete the select.</p>
+            <select id="select">
+                <option>Dog</option>
+                <option>Cat</option>
+                <option>Hamster</option>
+            </select>
+            <button id="emptySelect">Empty</button>
+            <button id="deleteSelect">Delete</button>
+        </div>
+        <div id="">
+            <p class="instruction"></p>
+        </div>
+    </body>
+</html>
